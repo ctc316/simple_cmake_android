@@ -6,8 +6,8 @@ A simple project doing cross compile C static library for Android NDK use, build
 
 ## How-to
     
-1. configure `ANDROID_NDK` path in `build.sh` (`ANDORID_JNI_LIB_DIR` is optional)
-1. start By shell script `sh build.sh`
+1. configure `ANDROID_NDK` path in `build.sh`  (`ANDORID_JNI_LIB_DIR` is optional)
+1. run `build.sh`
 
 
 ## Output 
