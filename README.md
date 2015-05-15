@@ -1,13 +1,13 @@
 # simple-cmake-android
 
-A simple project doing cross compile C static library for Android NDK use, build on CMake and cmake toolchain file by taka-no-me (which has done most of the jobs, lots of thanks) 
+A simple project doing cross compile C static library for Android NDK use, build on CMake and toolchain file by taka-no-me (which has done most of the jobs, lots of thanks) 
 
 (https://github.com/taka-no-me/android-cmake)
 
 ## How-to
     
-1. configure `ANDROID_NDK` path in build.sh (`ANDORID_JNI_LIB_DIR` is optional)
-1. sh build.sh
+1. configure `ANDROID_NDK` path in `build.sh` (`ANDORID_JNI_LIB_DIR` is optional)
+1. start By shell script `sh build.sh`
 
 
 ## Output 
