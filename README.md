@@ -4,15 +4,15 @@ A simple project doing cross compile C static library for Android NDK use, build
 
 (https://github.com/taka-no-me/android-cmake)
 
-## HOW
+## How-to
     
-1. configure `ANDROID_NDK` path in build.sh (*`ANDORID_JNI_LIB_DIR` is optional)
+1. configure `ANDROID_NDK` path in build.sh (`ANDORID_JNI_LIB_DIR` is optional)
 1. sh build.sh
 
 
 ## Output 
 
-  - `build_result`
+  - Categorized static libraries in directory `build_result/`
   - It will build static libraries for all that ABI that JNI support:
     * `arm64-v8a` - ARMv8 AArch64 instruction set - only for NDK r10 and newer
     * `armeabi` - ARMv5TE based CPU with software floating point operations;
